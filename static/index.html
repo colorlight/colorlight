@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Colorlight - 李伟光</title>
+	<link rel="stylesheet" href="/static/css/main.css">
+	<link rel="stylesheet" href="/static/css/normalize.css">
+	<link rel="stylesheet" href="/static/fonts/iconfont/iconfont.css">
+</head>
+<body>
+	<header class="pannel-cover">
+		<div class="panel-main">
+			<div class="panel-main_inner panel-inverted">
+				<div class="pannel-main_content">
+					<a href="https://colorlight.me">
+						<img class="pannel-cover_logo myname iUp" src="/static/img/colorlightWhite.png" alt="colorlight">
+					</a>
+
+					<div class="navigation-wrapper iUp">
+						<div>
+							<nav class="cover-navigation">
+								<ul class="navigation">
+									<li class="navigation-item"><a href="https://colorlight.me">主页</a></li>
+									<li class="navigation-item"><a href="/static/blog/blog.html">博客</a></li>
+									<li class="navigation-item"><a href="/resume">简历</a></li>
+									<li class="navigation-item"><a href="/login">杂货铺</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="navigation-social">
+							<nav class="cover-navigation">
+								<ul class="navigation">
+									<li class="navigation-item">
+										<a href="https://github.com/colorlight" title="github">
+											<span class="social iconfont">&#xe69f;</span>
+										</a>
+									</li>
+									<li class="navigation-item">
+										<a href="http://note.youdao.com/share/?id=79165cc9db130ed8b096e3e06efa3dbb&type=notebook#/" title="youdao-note">
+											<span class="social iconfont">&#xe69c;</span>
+										</a>
+									</li>
+									<li class="navigation-item">
+										<a href="https://www.zhihu.com/people/li-wei-guang-57" title="知乎">
+											<span class="social iconfont">&#xe6d1;</span>
+										</a>
+									</li>
+									<li class="navigation-item">
+										<a href="http://weibo.com/5526426181/profile?topnav=1&wvr=6&is_all=1" title="微博">
+											<span class="social iconfont">&#xe60a;</span>
+										</a>
+									</li>
+									<li class="navigation-item">
+										<a href="https://codepen.io/colorlight/" title="codePen">
+											<span class="social iconfont">&#xe6d2;</span>
+										</a>
+									</li>
+								</ul>
+							</nav>	
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="cover-overlay cover-slate"></div>
+		</div>
+
+	</header>
+
+	<script>	
+			var myName = document.getElementsByClassName('myname')[0];
+			
+			setTimeout(`myName.classList.add('up')`,200);
+
+			var mySocial = document.getElementsByClassName('navigation-wrapper')[0];
+			
+			setTimeout(`mySocial.classList.add('up')`,400);
+	</script>
+
+</body>
+</html>
