@@ -1,0 +1,44 @@
+div{
+	background: white;
+}
+
+.black{
+	width: 1000px;
+	height: 500px;
+	border: 2px solid black;
+	padding: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	 transform: translate(-50%, -50%);
+
+}
+
+.red {
+	width: 300px;
+	height: 400px;
+	border:  2px solid red;
+	float: left;
+	margin-left: 20px
+}
+
+
+.green{
+	width: 100px;
+	height: 300px;
+	border:  2px solid green;
+	float: left;
+	margin-left: 20px
+}
+
+.blue{
+	width: 25px;
+	height: 200px;
+	border: 2px solid blue;
+	float: left;
+	margin-left: 2px
+}
+
+.background-blue{
+	background: blue;
+}

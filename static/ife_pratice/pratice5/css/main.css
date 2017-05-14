@@ -1,0 +1,196 @@
+body{
+	min-width: 720px;
+	background: black;
+	font-family: "黑体";
+	font-size: 14px;
+}
+
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+a{
+	text-decoration: none;
+}
+
+header .head-wrapper{
+	width: 90%;
+	margin: 0 auto;
+	background: #e2dfdf;
+}
+
+.head-wrapper img{
+	vertical-align: bottom;
+}
+
+.head-wrapper span{
+	line-height: 80px;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+
+.navbar{
+	margin-top: 15px;	
+	float: right;
+	margin-right: 10px;
+}
+
+.navbar li{
+	display: block;
+	float: left;
+	/*padding:10px 10px;*/
+}
+
+.navbar a{
+	text-decoration: none;
+	color: black;
+	display:block;
+	padding: 10px 15px;
+}
+
+.navbar a:hover{
+	background: #eef;
+}
+
+.wrapper{
+	width:90%;
+	background: #eee;
+}
+
+#main-wrapper{
+	/*overflow: hidden;*/
+	margin: 0 auto;
+}
+
+#main-wrapper::before{
+	content: "";
+	display: table;
+	margin-bottom:20px;
+}
+
+article{
+	background: white;
+}
+
+aside{
+	width: 350px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	background: white;
+	padding: 20px;
+
+}
+
+
+
+#aside-title{
+	border-left: 2px solid #ccc;
+	padding-left: 10px;
+	margin: 0 auto;
+	margin-left: 10px;
+	/*text-align: center;*/
+}
+
+
+/*#aside-title::before{*/
+	/*content:"";
+	display:inline-block;
+	width:10px;
+	height:40px;
+	margin-right: 10px;
+	background: #dd182b;*/
+	/*vertical-align: bottom;*/
+	/*position: relative;
+	top: 10px;*/
+/*}*/
+
+
+.article-set{
+	margin-top: 20px;
+	margin-right: 430px;
+	margin-left : 20px;
+}
+
+.note{
+	float: left;
+}
+
+.enter{
+	float: right;
+}
+
+#main-wrapper button{
+	overflow: auto;
+}
+
+.input-message{
+	display: inline-block;
+	width: 30%;
+	text-align: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.input-box{
+	vertical-align: bottom;
+	width: 55%;
+}
+
+#input-remind{
+	margin-top: 10px;
+	margin-left: 37.5%;
+	color: gray;
+	font-size: 13px;
+}
+
+.input-part textarea{
+	/*margin-top: 10px;*/
+	height: 100px;
+	width: 55%;
+}
+
+#descript{
+	margin-top: 0px;
+	vertical-align: top;
+}
+
+#descript-div{
+	margin-top: 20px;
+}
+
+.submit-button{
+	background: #3355D0;
+	width: 100%;
+	color: #fff;
+	border-radius: 5px;
+	border:none;
+	height: 50px;
+	margin-top: 20px;
+}
+
+.article-set h3, .article-set h4, 
+.article-set h5{
+	color: gray;
+}
+
+.text-indent{
+	text-indent: 1em;	
+}
+
+.text-indent a{
+	color: #fff;
+	background: #3355D0;
+}

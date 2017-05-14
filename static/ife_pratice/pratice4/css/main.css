@@ -1,0 +1,29 @@
+#gray-section{
+	width: 400px;
+	height: 200px;
+	background: #ccc;
+
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left: -200px;
+	margin-top: -100px;
+}
+
+#gray-section div{
+	height: 50px;
+	width: 50px;
+	background: yellow;
+
+}
+
+#left_halfcircle{
+	border-radius: 0 0 100% 0;
+}
+
+#right_halfcircle{
+	position: absolute;
+	bottom: 0px;
+	right:0px;
+	border-radius: 100% 0 0 0;
+}

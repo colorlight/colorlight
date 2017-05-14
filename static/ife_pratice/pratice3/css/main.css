@@ -1,0 +1,78 @@
+body{
+	padding: 20px;
+	color: #000;
+}
+
+.main_part{
+	border:2px solid  #999;
+	/*height: 500px;*/
+	padding: 20px;
+	overflow: auto;
+	background: #eee;
+	min-width:632px;
+
+}
+
+#team_logo{
+	float: left;
+	width: 80px;
+	height: 80px;
+	/*height:100%;*/
+	/*border:1px solid #999;*/
+}
+#team_logo img{
+	vertical-align: bottom;
+}
+
+#team_name {	
+	float: left;
+	width:80px;
+	height: 80px;
+	font-weight: bold;
+	text-align: center;
+}
+#team_name p{
+	position: relative;
+	top:5px;
+	left:10px;
+}
+
+.left_part{
+	float: left;
+	width: 160px;
+	height: 80px;
+	padding:20px;
+	background: #fff;
+	border:1px solid #999;
+}
+
+.right_part{
+	float: right;
+	width: 80px;
+/*	height: 500px;*/
+	background: #fff;
+	border:1px solid #999;
+	padding: 20px;
+}
+
+.middle_part{
+	/*width: 500px;*/
+	height: 500px;
+	border: 1px solid #999;
+	padding: 20px;
+	margin-left: 220px;
+	margin-right: 140px;
+	min-width: 230px;
+}
+
+.right_part div{
+	width: 80px;
+	height: 80px;
+	background: #000;
+	margin-top: 20px;
+	border:1px solid #999;
+}
+
+#member1{
+	margin:0;
+}
